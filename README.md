@@ -2,7 +2,7 @@
 
 A premium, modern, and high-performance portfolio website built for an **AI/ML Engineer & Data Scientist**. Designed with a focus on futuristic aesthetics, smooth animations, and developer-centric branding.
 
-🔗 **Live Portfolio:** [raushan-kumar.ai](https://ais-pre-p7rjjm4qcwrhgiwsyv2wdv-46809602151.asia-east1.run.app)
+🔗 **Live Portfolio:** [raushan-kumar.ai](https://raushan-kumar-ai-ml-engineer-portfolio-184290466223.asia-southeast1.run.app/)
 
 ![Portfolio Preview](https://via.placeholder.com/1200x600/0A0A0A/3B82F6?text=Raushan+Kumar+Portfolio+AI+ML)
 
