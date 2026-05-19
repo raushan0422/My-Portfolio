@@ -2,7 +2,7 @@
 
 A premium, modern, and high-performance portfolio website built for an **AI/ML Engineer & Data Scientist**. Designed with a focus on futuristic aesthetics, smooth animations, and developer-centric branding.
 
-🔗 **Live Portfolio:** [raushan-kumar.ai](https://raushan-kumar-ai-ml-engineer-portfolio-184290466223.asia-southeast1.run.app)
+🔗 **Live Portfolio:** [raushan-kumar.ai](https://ais-pre-p7rjjm4qcwrhgiwsyv2wdv-46809602151.asia-east1.run.app)
 
 ![Portfolio Preview](https://via.placeholder.com/1200x600/0A0A0A/3B82F6?text=Raushan+Kumar+Portfolio+AI+ML)
 
@@ -24,7 +24,7 @@ Inspired by the clean and technical aesthetics of **Apple**, **Linear**, and **S
 ## ✨ Key Features
 - **Hero Section:** Minimalist dark mesh gradient with glowing particles.
 - **AI Terminal Mockup:** An interactive-style about section showing personality through "code".
-- **Dynamic Skill Bars:** Animated proficiency tracking for ML/DL/Dev tools.
+- **Professional Skill Grid:** A categorical chip-based technical ecosystem overview.
 - **Interactive Experience Timeline:** A vertical track highlighting internship and leadership roles.
 - **Bento Project Cards:** High-impact cards for showcasing AI/ML applications (LLMs, Computer Vision, NLP).
 - **Responsive Design:** Optimized for everything from mobile devices to ultra-wide monitors.

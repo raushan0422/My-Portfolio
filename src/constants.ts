@@ -35,7 +35,7 @@ export const PERSONAL_INFO = {
   email: "raushankrrgupta1@gmail.com",
   phone: "9027459874",
   location: "Greater Noida",
-  resumeLink: "https://drive.google.com/file/d/1zXAQ_FmM8che6F3rm5oljgOe93-SN9lO/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1rUN8K3BLwGb8mZgikG3VtfaygRMbLfPp/view?usp=sharing",
   education: {
     degree: "B.Tech CSE (AI & ML)",
     school: "Noida Institute of Engineering and Technology",
@@ -53,40 +53,45 @@ export const SKILLS = [
   { 
     category: "Languages", 
     items: [
-      { name: "Python", level: 90 },
-      { name: "SQL", level: 85 },
-      { name: "HTML5/CSS3", level: 80 }
+      { name: "Python", slug: "python" },
+      { name: "SQL", slug: "mysql" },
+      { name: "HTML5", slug: "html5" },
+      { name: "CSS3", slug: "css3" }
     ],
     icon: Code2
   },
   { 
     category: "AI/ML Core", 
     items: [
-      { name: "Machine Learning", level: 90 },
-      { name: "Deep Learning", level: 85 },
-      { name: "Computer Vision", level: 85 },
-      { name: "NLP", level: 80 },
-      { name: "Generative AI", level: 75 }
+      { name: "Machine Learning", slug: "scikitlearn" },
+      { name: "Deep Learning", slug: "tensorflow" },
+      { name: "Computer Vision", slug: "opencv" },
+      { name: "NLP", slug: "huggingface" },
+      { name: "Generative AI", slug: "google-gemini" }
     ],
     icon: BrainCircuit
   },
   { 
     category: "Tools & Frameworks", 
     items: [
-      { name: "TensorFlow/Keras", level: 85 },
-      { name: "Scikit-Learn", level: 90 },
-      { name: "PyTorch", level: 70 },
-      { name: "Streamlit/Flask", level: 85 },
-      { name: "Hugging Face", level: 80 }
+      { name: "TensorFlow", slug: "tensorflow" },
+      { name: "Keras", slug: "keras" },
+      { name: "PyTorch", slug: "pytorch" },
+      { name: "Streamlit", slug: "streamlit" },
+      { name: "Flask", slug: "flask" },
+      { name: "Hugging Face", slug: "huggingface" }
     ],
     icon: Cpu
   },
   { 
     category: "Data & Cloud", 
     items: [
-      { name: "MySQL/MongoDB", level: 85 },
-      { name: "Pandas/NumPy", level: 95 },
-      { name: "Git/GitHub", level: 90 }
+      { name: "MySQL", slug: "mysql" },
+      { name: "MongoDB", slug: "mongodb" },
+      { name: "Pandas", slug: "pandas" },
+      { name: "NumPy", slug: "numpy" },
+      { name: "Git", slug: "git" },
+      { name: "GitHub", slug: "github" }
     ],
     icon: Database
   }
