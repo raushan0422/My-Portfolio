@@ -102,28 +102,28 @@ export const PROJECTS = [
     title: "AI Vehicle Detection & Counting",
     description: "Intelligent computer vision system for real-time traffic monitoring using CNNs.",
     tech: ["Python", "OpenCV", "TensorFlow", "CNN"],
-    links: { github: "#", demo: "#" },
+    links: { github: "https://github.com/raushan0422", demo: "#" },
     icon: Search
   },
   {
     title: "AI Virtual Assistant (JARVIS)",
     description: "Smart voice-powered assistant capable of task automation and real-time command execution.",
     tech: ["Python", "SpeechRecognition", "NLP", "APIs"],
-    links: { github: "#" },
+    links: { github: "https://github.com/raushan0422" },
     icon: MessageSquare
   },
   {
     title: "Next Word Prediction Model",
     description: "Deep learning NLP model using LSTM for context-aware predictive text generation.",
     tech: ["Python", "TensorFlow", "Keras", "LSTM"],
-    links: { github: "#" },
+    links: { github: "https://github.com/raushan0422" },
     icon: Terminal
   },
   {
     title: "Smart Research Summarizer",
     description: "Generative AI assistant for document Q&A and contextual summarization.",
     tech: ["Python", "Streamlit", "LangChain", "LLMs"],
-    links: { github: "#" },
+    links: { github: "https://github.com/raushan0422" },
     icon: FileText
   }
 ];

@@ -489,12 +489,22 @@ const Projects = () => {
                 </div>
                 <div className="flex items-center gap-4 pt-2">
                    {project.links.github && (
-                     <a href={project.links.github} className="flex items-center gap-2 text-xs font-bold text-white hover:text-brand-blue transition-colors">
+                     <a 
+                       href={project.links.github} 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       className="flex items-center gap-2 text-xs font-bold text-white hover:text-brand-blue transition-colors"
+                     >
                        <Github size={16} /> Codebase
                      </a>
                    )}
                    {project.links.demo && (
-                     <a href={project.links.demo} className="flex items-center gap-2 text-xs font-bold text-white hover:text-brand-blue transition-colors">
+                     <a 
+                       href={project.links.demo} 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       className="flex items-center gap-2 text-xs font-bold text-white hover:text-brand-blue transition-colors"
+                     >
                        <ExternalLink size={16} /> Live Demo
                      </a>
                    )}
@@ -607,6 +617,8 @@ const Contact = () => {
                 <a 
                   key={social.name} 
                   href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-14 h-14 glass rounded-2xl flex items-center justify-center text-slate-400 hover:text-brand-blue hover:border-brand-blue/40 transition-all group lg:hover:scale-110"
                   title={social.name}
                 >
@@ -727,7 +739,13 @@ const Footer = () => (
       
       <div className="flex gap-6">
         {SOCIAL_LINKS.map(s => (
-          <a key={s.name} href={s.url} className="text-slate-500 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest">
+          <a 
+            key={s.name} 
+            href={s.url} 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest"
+          >
             {s.name}
           </a>
         ))}
